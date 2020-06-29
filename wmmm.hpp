@@ -25,10 +25,10 @@ class WMMM {
 		// Entry point to the class; enter the main event loop
 		void run ();
 
-	private:
-
 		// Invoked internally by create()
 		WMMM(xcb_connection_t *c);
+
+	private:
 
 		// Handle to the XCB connection in use
 		xcb_connection_t *c;
